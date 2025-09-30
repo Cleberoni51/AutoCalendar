@@ -168,3 +168,8 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+.remember-forgot label input {
+    accent-color: grey;
+    margin-right: 3px;
+}
