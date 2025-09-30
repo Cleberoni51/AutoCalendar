@@ -20,4 +20,8 @@ header {
     width: 100%;
     padding: 20px 100px;
     background: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
 }
