@@ -83,6 +83,7 @@ header {
     font-weight: 500;
     margin-left: 40px;
     transition: .5s;
+    text-decoration: none;
 }
 
 .navigation .btnLogin:hover {
