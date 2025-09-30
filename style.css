@@ -173,3 +173,12 @@ header {
     accent-color: grey;
     margin-right: 3px;
 }
+
+.remember-forgot a {
+    color: grey;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
