@@ -13,6 +13,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background: red;
+    background-size: cover;
+    background-position: center;
+}
+
 header {
     position: fixed;
     top: 0;
