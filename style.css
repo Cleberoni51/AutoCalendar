@@ -89,3 +89,13 @@ header {
     background: white;
     color: black;
 }
+
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: lightgreen;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
