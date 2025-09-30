@@ -109,6 +109,25 @@ header {
     padding: 40px;
 }
 
+.wrapper2 {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: lightgreen;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper2 .form-box {
+    width: 100%;
+    padding: 40px;
+}
+
 .form-box h2 {
     font-size: 2em;
     color: black;
