@@ -1,7 +1,14 @@
 /*style.css*/
 
-@import url("https://fonts.googleapis.com/css2?family=Poppi")
+/*@import url("https://fonts.googleapis.com/css2?family=Poppins")
 
 /*css stylesheet*/
 /*Caleb Schear*/
 /*9-30-2025*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
