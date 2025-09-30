@@ -56,6 +56,7 @@ header {
 }
 
 .navigation a:hover::after {
+    transform-origin: left;
     transform: scaleX(1);
 }
 
