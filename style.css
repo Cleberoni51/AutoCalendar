@@ -112,6 +112,7 @@ header {
 
 .wrapper2 {
     position: relative;
+    margin-top: 20px;
     width: 400px;
     height: 600px;
     background: lightcoral;
