@@ -234,3 +234,7 @@ header {
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+.login-register2 a {
+    padding: 20px;
+}
