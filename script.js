@@ -8,7 +8,7 @@ const firstname_input = document.getElementById('firstname-input')
 const password_input = document.getElementById('password-input')
 const email_input = document.getElementById('email-input')
 const telephone_input = document.getElementById('telephone-input')
-const errormessage = document.getElementById('error-message')
+const error_message = document.getElementById('error-message')
 
 form.addEventListener('submit', (e) => {
     let errors = []
@@ -21,6 +21,7 @@ form.addEventListener('submit', (e) => {
 
     if (errors.length > 0) {
         e.preventDefault()
+        error_message.innerText = errors.join(". ")
     }
 
 })
