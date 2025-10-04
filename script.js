@@ -5,7 +5,7 @@
 
 const form = document.getElementById('form')
 const firstname_input = document.getElementById('firstname-input')
-const firstname_input = document.getElementById('password-input')
-const firstname_input = document.getElementById('email-input')
-const firstname_input = document.getElementById('telephone-input')
+const password_input = document.getElementById('password-input')
+const email_input = document.getElementById('email-input')
+const telephone_input = document.getElementById('telephone-input')
 
