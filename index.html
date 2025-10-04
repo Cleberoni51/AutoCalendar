@@ -12,6 +12,28 @@ My Calendar (Calendar.html)   Sign In (Signin.html)  Register (Register.html)   
 <html lang="en">
 
 <head>
+
+    <title>Homepage</title>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    
+    <script>
+        var firebaseConfig {
+
+        }
+        firebase.initializeApp(firebaseConfig);
+
+        function checkAuthState() {
+            firebase.auth().onAuthStateChanged(function(user) {
+                if (!user) {
+                    window.location.href = "login.html";
+                }
+            });
+        }
+    </script>
+
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +41,7 @@ My Calendar (Calendar.html)   Sign In (Signin.html)  Register (Register.html)   
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="checkAuthState()">
 
     <header>
         <h2 class="logo">Logo</h2>
