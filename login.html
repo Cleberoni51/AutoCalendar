@@ -12,33 +12,6 @@ My Calendar (Calendar.html)   Sign In (Signin.html)  Register (Register.html)   
 <html lang="en">
 
 <head>
-
-    <title>Homepage</title>
-    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
-    
-    <script>
-        var firebaseConfig = {
-            apiKey: "AIzaSyCJEE9Yo8gWxOxikUXVX9yidIuEot2j6z8",
-            authDomain: "autocalendar-bc07c.firebaseapp.com",
-            projectId: "autocalendar-bc07c",
-            storageBucket: "autocalendar-bc07c.firebasestorage.app",
-            messagingSenderId: "847381554275",
-            appId: "1:847381554275:web:34afd613d71baedfde8456",
-            measurementId: "G-8RKGGC78VK"
-        }
-        firebase.initializeApp(firebaseConfig);
-
-        function checkAuthState() {
-            firebase.auth().onAuthStateChanged(function(user) {
-                if (!user) {
-                    window.location.href = "login.html";
-                }
-            });
-        }
-    </script>
-
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,7 +19,7 @@ My Calendar (Calendar.html)   Sign In (Signin.html)  Register (Register.html)   
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body onload="checkAuthState()">
+<body>
 
     <header>
         <h2 class="logo">Logo</h2>
